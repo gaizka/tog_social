@@ -14,6 +14,12 @@ es:
     back: Volver    
     msg_yes: Si
     msg_no: No
+    more_info: Más información
+    more_links: Más enlaces
+    search: Buscar
+    tags:
+      tags: Etiquetas
+      separated_by_comma: separadas por comas
     sharings: 
       share: Compartir '{{name}}' 
       share_with: Compartir con '{{name}}'    
@@ -41,6 +47,8 @@ es:
         send_message: Enviar mensaje privado
       member:
         updated: Su perfíl se ha actualizado con éxito
+        update_profile: Actualizar perfíl
+        profile_details: Detalles del perfíl
       helper:
         photo_for_user: Foto de {{name}}
         follow_user: Seguir a {{name}}
@@ -49,6 +57,10 @@ es:
         remove_friend: Eliminar a {{name}} de tu lista de amigos        
     groups:
       model:
+        members:
+          one: "1 miembro"
+          other: "{{count}} miembros"
+        members_not_found: "{{group_name}} tiene 0 miembros."
         name: Nombre
         created_by: Creado por
         private: Privado
