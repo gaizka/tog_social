@@ -2,7 +2,6 @@ require_plugin 'tog_core'
 require_plugin 'tog_mail'
 require_plugin 'acts_as_state_machine'
 require_plugin 'seo_urls'
-require_plugin 'paperclip'
 
 require "i18n" unless defined?(I18n)
 Dir[File.dirname(__FILE__) + '/locale/**/*.yml'].each do |file|
